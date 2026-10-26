@@ -8,9 +8,24 @@
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue.svg)](https://www.postgresql.org/)
 [![Flyway](https://img.shields.io/badge/Flyway-Migrations-red.svg)](https://flywaydb.org/)
 
+
+
+
 **Dashmate Event-Driven** (SmartBite Store) is a scalable, modular event-driven backend service built with **Spring Boot 3** and **Spring Modulith**. It handles core ride-hailing and logistics workflows including real-time rider tracking, dynamic fare calculation, event-driven trip lifecycle management, and instant payment settlement using **Apache Kafka**, **Redis**, and **WebSockets**.
 
 ---
+
+## 🌐 Live Demo
+
+| Resource | Link |
+| :--- | :--- |
+| Swagger UI | https://<your-domain-or-ip>/swagger-ui.html |
+| Health check | https://<your-domain-or-ip>/actuator/health |
+| WebSocket | wss://<your-domain-or-ip>/ws/rider |
+
+> ⚠️ **Note:** This project runs on my personal self-managed Ubuntu server, so it may occasionally be offline.
+> If the demo is not live, please contact me and I'll start it right away or walk you through it:
+> 📧 asutosh.gouda22@gmail.com | 💼 [LinkedIn](https://linkedin.com/in/asutosh-gouda)
 
 ## 🏛️ Architecture Overview
 
